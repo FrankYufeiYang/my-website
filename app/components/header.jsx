@@ -63,7 +63,7 @@ export default function Header() {
             </p>
 
             <p className='font-semibold slide-in-left	'>
-              <a href=''>
+              <a href='https://drive.google.com/file/d/1Bt2WSy87CMD_nrP8oGUcXC8LtUU0aXj3/view?usp=sharing' target='_blank'>
                 Interested in me? Download my resume
                 <span className='pl-4'>➜</span>
               </a>
