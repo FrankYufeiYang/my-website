@@ -14,8 +14,8 @@ export default function Main() {
             imgUrl={'/chatbot-portal.png'}
             description={
               <p className='p-5'>
-                As a full-stack developer in Verizon's chatbot team, I built a
-                cross-team performance tracking dashboard with
+                As a full-stack developer on Verizon&apos;s chatbot team, I
+                built a cross-team performance tracking dashboard with
                 <b> React</b>, <b>Python Flask</b>, and <b>PostgreSQL</b>. The
                 dashboard could process and integrate data from more than three
                 sources, offering real-time data presentation. I also automated
@@ -32,7 +32,7 @@ export default function Main() {
             imgUrl={'/chatbot-portal.png'}
             description={
               <p className='p-5'>
-                As a frontend developer in Verizon's IoT team, I built a
+                As a frontend developer on Verizon&apos;s IoT team, I built a
                 cross-team performance tracking dashboard with
                 <b> React</b>. It enabled back-end developers and IoT engineers
                 to manage and configure their devices wtih a user-friendly UI. I

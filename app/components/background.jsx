@@ -21,7 +21,7 @@ export default function Background() {
     {
       date: '2024',
       title: 'TBD...',
-      description:""
+      description: '',
     },
     // ... more events
   ];
