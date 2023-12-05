@@ -4,7 +4,7 @@ export default function Background() {
       date: '2021-05',
       title: 'Student',
       description:
-        'I graduated from The Pennsylvania State University with a Computer Science degree. Even though I have been interested in computer since I was a kid, I really falled in love with programming during the college years, and I have not stopped self-learning and developing things ever since. ',
+        'I graduated from The Pennsylvania State University with a degree in Computer Science. Although my interest in computers sparked at a young age, it was during my college years that I truly fell in love with programming. This passion has continually driven me to self-learn and develop ever since, constantly expanding my expertise and skills in the field.',
     },
     {
       date: '2022-03',
