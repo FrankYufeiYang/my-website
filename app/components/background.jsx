@@ -42,7 +42,7 @@ export default function Background() {
   };
   const Timeline = ({ data }) => {
     return (
-      <ul className='relative border-l border-gray-200 max-w-[60%]'>
+      <ul className='relative border-l border-gray-200 max-w-[85%] md:max-w-[60%]'>
         {data.map((item, index) => (
           <TimelineItem key={index} data={item} />
         ))}
@@ -51,7 +51,7 @@ export default function Background() {
   };
   return (
     <div className=' pb-10'>
-      <div className='max-w-[1400px] mx-auto px-10 '>
+      <div className='max-w-[1400px] mx-auto md:px-10 '>
         <div className='text-center max-w-lg m-auto'>
           <h2 className='text-4xl font-bold pt-10'>Background</h2>
         </div>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <>
-      <header className='text-white'>
+      <header className='text-white relative'>
         <nav className='container mx-auto flex justify-between items-center p-4'>
           <div className='text-3xl font-bold'>
             <Link href='/'>Yufei (Frank) Yang - United States</Link>
@@ -41,18 +41,18 @@ export default function Header() {
           </div>
         </nav>
 
-        <div className='flex flex-col justify-center py-10 my-12'>
-          <div className='max-w-[60vh]  mx-auto my-auto'>
-            <h1 className='main slide-in-left'>
+        <div className=' md:h-[40vh] z-10 relative w-[100%] pt-10 pb-28 px-10 text-center flex flex-col justify-center'>
+          <div className='text-left max-w-3xl m-auto'>
+            <div className=' my-4 font-extrabold text-3xl l  slide-in-left'>
               Do you want to hire a software engineer who is
               <br />
-              <b className='text-decoration-line: underline'>
+              <span className='text-decoration-line: underline'>
                 motivated and self-driven
-              </b>
+              </span>
               ?
               <br />
-            </h1>
-            <p className='second slide-in-right'>
+            </div>
+            <p className=' font-normal text-lg my-4 text-[#bfd8ff] slide-in-right'>
               As a detail-oriented software engineer with two years of
               professional experience in full-stack development, I specialize in
               web developement with React. My abilities and strength as a team
@@ -62,8 +62,11 @@ export default function Header() {
               to take on new opportunities in this field.
             </p>
 
-            <p className='font-semibold slide-in-left	'>
-              <a href='https://drive.google.com/file/d/1Bt2WSy87CMD_nrP8oGUcXC8LtUU0aXj3/view?usp=sharing' target='_blank'>
+            <p className='font-semibold text-lg slide-in-left	'>
+              <a
+                href='https://drive.google.com/file/d/1Bt2WSy87CMD_nrP8oGUcXC8LtUU0aXj3/view?usp=sharing'
+                target='_blank'
+              >
                 Interested in me? Download my resume
                 <span className='pl-4'>➜</span>
               </a>
@@ -71,7 +74,7 @@ export default function Header() {
           </div>
         </div>
       </header>
-      <div className='cut mb-20'>
+      <div className='cut my-20'>
         <svg
           width='100%'
           height='100%'

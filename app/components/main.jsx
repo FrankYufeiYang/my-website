@@ -9,7 +9,7 @@ export default function Main() {
         <div className='text-center max-w-lg m-auto'>
           <h2 className='text-4xl font-bold'>Previous Projects</h2>
         </div>
-        <div className='my-12 grid grid-cols-3 gap-5 justify-center items-center h-[100%] '>
+        <div className='my-12 grid grid-cols-1 md:grid-cols-3 gap-5 justify-center items-center h-[100%] '>
           <Project
             imgUrl={'/chatbot-portal.png'}
             description={

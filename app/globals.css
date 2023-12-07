@@ -14,6 +14,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 .bg-dark {
@@ -22,27 +23,7 @@
 }
 
 header {
-  height: 45vh;
   background-image: linear-gradient(to top, #0051d6 0%, #0061ff 100%);
-  position: relative;
-}
-.main {
-  margin-bottom: 0.5em;
-  text-transform: none;
-  font-size: 2em;
-  padding-top: 0.1em;
-  text-align: left;
-  font-weight: 800;
-}
-.second {
-  color: #bfd8ff;
-  line-height: 1.7;
-  font-weight: 400;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 }
 
 .slide-in-left {
@@ -80,17 +61,21 @@ header {
   clip-rule: evenodd;
   stroke-linejoin: round;
   stroke-miterlimit: 1.41421;
+  width: calc(100% + 1em);
+  margin-left: -1em;
+  position: absolute;
+  bottom: 0;
 }
 
-.project{
-  box-shadow: 0 3px 10px rgba(50,50,50,.05);
-    border: 1px solid #f7f7f7;
-    border-radius: 5px;
-    padding: 1.5em;
-    background-color: #fff;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
+.project {
+  box-shadow: 0 3px 10px rgba(50, 50, 50, 0.05);
+  border: 1px solid #f7f7f7;
+  border-radius: 5px;
+  padding: 1.5em;
+  background-color: #fff;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 /* Animations */
 @keyframes slideInFromLeft {
