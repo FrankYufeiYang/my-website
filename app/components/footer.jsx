@@ -3,13 +3,13 @@ import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 export default function Footer() {
   return (
     <footer className='bg-dark py-16'>
-      <div className='max-w-[80%] my-0 mx-auto py-0 px-10 grid grid-cols-2 gap-5 h-full'>
-        <div>
+      <div className='md:max-w-[80%] mx-auto px-10 grid md:grid-cols-2 gap-5 h-full'>
+        <div className='mx-auto md:mx-0'>
           <h1>Yufei Yang</h1>
           <p>Copyright &copy; 2023</p>
         </div>
         <nav>
-          <div className='flex justify-end'>
+          <div className='flex justify-center md:justify-end'>
             <a
               className='mx-3 hover:text-black'
               href='https://github.com/FrankYufeiYang'
