@@ -58,17 +58,16 @@ export default function Header() {
               web developement with React. My abilities and strength as a team
               player have led to the fostering of growth and enhanced
               productivity in past positions. I am dedicated to contributing my
-              expertise to innovative and challenging projects, and I am excited
-              to take on new opportunities in this field.
+              expertise to innovative and challenging projects.
             </p>
 
             <p className='font-semibold text-lg slide-in-left	'>
               <a
-                href='https://drive.google.com/file/d/1Bt2WSy87CMD_nrP8oGUcXC8LtUU0aXj3/view?usp=sharing'
+                href='https://docs.google.com/document/d/e/2PACX-1vSSyO6AQqub2CeiQXWNO9LXIqoHHE5db2bI4Ta7W51EkmfcY8rYZO9jlCvcDX4ZIfm-fX-eqZYwdocv/pub'
                 target='_blank'
               >
-                Interested in me? Download my resume
-                <span className='pl-4'>➜</span>
+                Interested in me? View my resume
+                <span className='pl-4	'>➜</span>
               </a>
             </p>
           </div>

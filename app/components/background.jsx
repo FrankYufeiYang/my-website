@@ -16,7 +16,7 @@ export default function Background() {
       date: '2023-03',
       title: 'Verizon Chatbot Team',
       description:
-        "As a full-stack developer on Verizon's chatbot team, I collaborated with various teams to design and develop a comprehensive dashboard that could gather and process data from multiple sources, offering insightful and user-friendly data representations. This experience taught me how to work with different people and design intuitive apps for non-technical users.",
+        "As a full-stack developer on Verizon's chatbot team, I collaborated with various teams to design and develop a comprehensive dashboard that could gather and process data from multiple sources, offering metric-monitoring, issue-alerting and user-friendly functionalities. This experience taught me how to work with different people and design intuitive apps for non-technical users.",
     },
     {
       date: '2024',
@@ -50,7 +50,7 @@ export default function Background() {
     );
   };
   return (
-    <div className=' pb-10'>
+    <div className=' bg-slate-50 pb-10'>
       <div className='max-w-[1400px] mx-auto md:px-10 '>
         <div className='text-center max-w-lg m-auto'>
           <h2 className='text-4xl font-bold pt-10'>Background</h2>
